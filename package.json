@@ -1,7 +1,7 @@
 {
-  "name": "pdf-lib",
-  "version": "1.16.0",
-  "description": "Create and modify PDF files with JavaScript",
+  "name": "@tlustykot/pdf-lib-encrypt",
+  "version": "1.19.0",
+  "description": "Create and modify PDF files with JavaScript also encryption",
   "author": "Andrew Dillon <andrew.dillon.j@gmail.com>",
   "contributors": [
     "jerp (https://github.com/jerp)",

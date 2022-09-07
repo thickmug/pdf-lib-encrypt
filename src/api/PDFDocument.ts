@@ -186,7 +186,7 @@ export default class PDFDocument {
    * @returns void
    */
   async encrypt(options: SecurityOption) {
-    options.pdfVersion = this.context.header.getVersion();
+    options.pdfVersion = "1.7";
     this._id = PDFSecurity.generateFileID(this.getInfoDict());
     const newInfo = this.context.obj([this._id, this._id]);
     this.context.trailerInfo.ID = newInfo;
